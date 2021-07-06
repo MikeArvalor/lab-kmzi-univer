@@ -1,0 +1,134 @@
+﻿<Window x:Class="Enigma.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Enigma"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="600">
+    <Grid Background="Green">
+      
+        <Label Background="Beige" Margin="24,96,10,245">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="20"/>
+                </Grid.ColumnDefinitions>
+                <Label  x:Name="LabelA" HorizontalContentAlignment="Center" Content="A" FontSize="20" Grid.Column="1" Grid.ColumnSpan="2" Margin="20 0 0 0" Grid.Row="3" Height="40" Width="40"/>
+                <Label x:Name="LabelB" Content="B" FontSize="20" Grid.Column="11" Grid.Row="5" Height="40" Width="40"/>
+                <Label x:Name="LabelC" Content="C" FontSize="20" Grid.Column="7" Grid.Row="5" Height="40" Width="40"/>
+                <Label x:Name="LabelD" Content="D" FontSize="20" Grid.Column="5" Grid.Row="3" Height="40" Grid.ColumnSpan="2" Margin="20 0 0 0" Width="40"/>
+                <Label x:Name="LabelE" Content="E" FontSize="20" Grid.Column="5" Grid.Row="1" Height="40" Width="40"/>
+                <Label x:Name="LabelF" Content="F" FontSize="20" Grid.Column="7" Grid.Row="3" Height="40" Grid.ColumnSpan="2" Margin="20 0 0 0" Width="40"/>
+                <Label x:Name="LabelG" Content="G" FontSize="20" Grid.Column="9" Grid.Row="3" Height="40" Grid.ColumnSpan="2" Margin="20 0 0 0" Width="40"/>
+                <Label x:Name="LabelH" Content="H" FontSize="20" Grid.Column="11" Grid.Row="3" Height="40" Grid.ColumnSpan="2" Margin="20 0 0 0" Width="40"/>
+                <Label x:Name="LabelI" Content="I" FontSize="20" Grid.Column="15" Grid.Row="1" Height="40" Width="40"/>
+                <Label x:Name="LabelJ" Content="J" FontSize="20" Grid.Column="13" Grid.Row="3" Height="40" Grid.ColumnSpan="2" Margin="20 0 0 0" Width="40"/>
+                <Label x:Name="LabelK" Content="K" FontSize="20" Grid.Column="15" Grid.Row="3" Height="40" Grid.ColumnSpan="2" Margin="20 0 0 0" Width="40"/>
+                <Label x:Name="LabelL" Content="L" FontSize="20" Grid.Column="17" Grid.Row="5" Height="40" Width="40"/>
+                <Label x:Name="LabelM" Content="M" FontSize="20" Grid.Column="15" Grid.Row="5" Height="40" Width="40"/>
+                <Label x:Name="LabelN" Content="N" FontSize="20" Grid.Column="13" Grid.Row="5" Height="40" Width="40"/>
+                <Label x:Name="LabelO" Content="O" FontSize="20" Grid.Column="17" Grid.Row="1" Height="40" Width="40"/>
+                <Label x:Name="LabelP" Content="P" FontSize="20" Grid.Column="1" Grid.Row="5" Height="40" Width="40"/>
+                <Label x:Name="LabelQ" Content="Q" FontSize="20" Grid.Column="1" Grid.Row="1" Height="40" Width="40"/>
+                <Label x:Name="LabelR" Content="R" FontSize="20" Grid.Column="7" Grid.Row="1" Height="40" Width="40"/>
+                <Label x:Name="LabelS" Content="S" FontSize="20" Grid.Column="3" Grid.Row="3" Height="40" Grid.ColumnSpan="2" Margin="20 0 0 0" Width="40"/>
+                <Label x:Name="LabelT" Content="T" FontSize="20" Grid.Column="9" Grid.Row="1" Height="40" Width="40"/>
+                <Label x:Name="LabelU" Content="U" FontSize="20" Grid.Column="13" Grid.Row="1" Height="40" Width="40"/>
+                <Label x:Name="LabelV" Content="V" FontSize="20" Grid.Column="9" Grid.Row="5" Height="40" Width="40"/>
+                <Label x:Name="LabelW" Content="W" FontSize="20" Grid.Column="3" Grid.Row="1" Height="40" Width="40"/>
+                <Label x:Name="LabelX" Content="X" FontSize="20" Grid.Column="5" Grid.Row="5" Height="40" Width="40"/>
+                <Label x:Name="LabelY" Content="Y" FontSize="20" Grid.Column="3" Grid.Row="5" Height="40" Width="40"/>
+                <Label x:Name="LabelZ" Content="Z" FontSize="20" Grid.Column="11" Grid.Row="1" Height="40" Width="40"/>
+
+            </Grid>
+        </Label>
+        <Label Background="Indigo" Margin="10,329,10,10">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="20"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="InputA" Click="InputA_Click" Content="A" FontSize="20" Grid.Column="1" Grid.Row="3" Height="40" Width="40" Grid.ColumnSpan="2" Margin="20 0 0 0"/>
+                <Button x:Name="InputB" Click="InputB_Click"  Content="B" FontSize="20" Grid.Column="11" Grid.Row="5" Height="40" Width="40"/>
+                <Button x:Name="InputC" Click="InputC_Click"  Content="C" FontSize="20" Grid.Column="7" Grid.Row="5" Height="40" Width="40"/>
+                <Button x:Name="InputD" Click="InputD_Click"  Content="D" FontSize="20" Grid.Column="5" Grid.Row="3" Height="40" Width="40" Grid.ColumnSpan="2" Margin="20 0 0 0"/>
+                <Button x:Name="InputE" Click="InputE_Click"  Content="E" FontSize="20" Grid.Column="5" Grid.Row="1" Height="40" Width="40"/>
+                <Button x:Name="InputF" Click="InputF_Click"  Content="F" FontSize="20" Grid.Column="7" Grid.Row="3" Height="40" Grid.ColumnSpan="2" Margin="20 0 0 0" Width="40"/>
+                <Button x:Name="InputG" Click="InputG_Click"  Content="G" FontSize="20" Grid.Column="9" Grid.Row="3" Height="40" Grid.ColumnSpan="2" Margin="20 0 0 0" Width="40"/>
+                <Button x:Name="InputH" Click="InputH_Click"  Content="H" FontSize="20" Grid.Column="11" Grid.Row="3" Height="40" Grid.ColumnSpan="2" Margin="20 0 0 0" Width="40"/>
+                <Button x:Name="InputI" Click="InputI_Click"  Content="I" FontSize="20" Grid.Column="15" Grid.Row="1" Height="40" Width="40"/>
+                <Button x:Name="InputJ" Click="InputJ_Click"  Content="J" FontSize="20" Grid.Column="13" Grid.Row="3" Height="40" Grid.ColumnSpan="2" Margin="20 0 0 0" Width="40"/>
+                <Button x:Name="InputK" Click="InputK_Click"  Content="K" FontSize="20" Grid.Column="15" Grid.Row="3" Height="40" Grid.ColumnSpan="2" Margin="20 0 0 0"  Width="40"/>
+                <Button x:Name="InputL" Click="InputL_Click"  Content="L" FontSize="20" Grid.Column="17" Grid.Row="5" Height="40" Width="40"/>
+                <Button x:Name="InputM" Click="InputM_Click"  Content="M" FontSize="20" Grid.Column="15" Grid.Row="5" Height="40" Width="40"/>
+                <Button x:Name="InputN" Click="InputN_Click"  Content="N" FontSize="20" Grid.Column="13" Grid.Row="5" Height="40" Width="40"/>
+                <Button x:Name="InputO" Click="InputO_Click"  Content="O" FontSize="20" Grid.Column="17" Grid.Row="1" Height="40" Width="40"/>
+                <Button x:Name="InputP" Click="InputP_Click"  Content="P" FontSize="20" Grid.Column="1" Grid.Row="5" Height="40" Width="40"/>
+                <Button x:Name="InputQ" Click="InputQ_Click"  Content="Q" FontSize="20" Grid.Column="1" Grid.Row="1" Height="40" Width="40"/>
+                <Button x:Name="InputR" Click="InputR_Click"  Content="R" FontSize="20" Grid.Column="7" Grid.Row="1" Height="40" Width="40"/>
+                <Button x:Name="InputS" Click="InputS_Click"  Content="S" FontSize="20" Grid.Column="3" Grid.Row="3" Height="40" Grid.ColumnSpan="2" Margin="20 0 0 0" Width="40"/>
+                <Button x:Name="InputT" Click="InputT_Click"  Content="T" FontSize="20" Grid.Column="9" Grid.Row="1" Height="40" Width="40"/>
+                <Button x:Name="InputU" Click="InputU_Click"  Content="U" FontSize="20" Grid.Column="13" Grid.Row="1" Height="40" Width="40"/>
+                <Button x:Name="InputV" Click="InputV_Click"  Content="V" FontSize="20" Grid.Column="9" Grid.Row="5" Height="40" Width="40"/>
+                <Button x:Name="InputW" Click="InputW_Click"  Content="W" FontSize="20" Grid.Column="3" Grid.Row="1" Height="40" Width="40"/>
+                <Button x:Name="InputX" Click="InputX_Click"  Content="X" FontSize="20" Grid.Column="5" Grid.Row="5" Height="40" Width="40"/>
+                <Button x:Name="InputY" Click="InputY_Click"  Content="Y" FontSize="20" Grid.Column="3" Grid.Row="5" Height="40" Width="40"/>
+                <Button x:Name="InputZ" Click="InputZ_Click"  Content="Z" FontSize="20" Grid.Column="11" Grid.Row="1" Height="40" Width="40"/>
+
+            </Grid>
+        </Label>
+    </Grid>
+</Window>

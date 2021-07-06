@@ -1,0 +1,7 @@
+E:\kmzi\Lab8\Lab7\bin\Debug\Lab7.exe.config
+E:\kmzi\Lab8\Lab7\bin\Debug\Lab7.exe
+E:\kmzi\Lab8\Lab7\bin\Debug\Lab7.pdb
+E:\kmzi\Lab8\Lab7\obj\Debug\Lab8.csprojAssemblyReference.cache
+E:\kmzi\Lab8\Lab7\obj\Debug\Lab8.csproj.CoreCompileInputs.cache
+E:\kmzi\Lab8\Lab7\obj\Debug\Lab7.exe
+E:\kmzi\Lab8\Lab7\obj\Debug\Lab7.pdb
